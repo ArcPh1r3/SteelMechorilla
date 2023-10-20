@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E6DDC47-9831-4C9F-9E50-5872B4A7E01C}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0E6DDC47-9831-4C9F-9E50-5872B4A7E01C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="sfx_mechorilla_death" ID="{F99DCF79-9B1A-4DDD-9020-FEAC3879BC12}">
+					<ChildrenList>
+						<Action Name="" ID="{ABC2CE15-B93F-4657-A4B0-DC1A44AD71AF}" ShortID="692974784">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_mechorilla_death" ID="{8A17FCF0-A43B-4381-A6CD-3FDBD96D00CF}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_mechorilla_zap" ID="{E2F5869B-FE35-4C03-9CCD-FB490BA6ABD4}">
+					<ChildrenList>
+						<Action Name="" ID="{BE11A0FE-BFA0-4193-9E71-F97D0E3CAB4E}" ShortID="437008769">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_mechorilla_zap" ID="{F5FA912D-3D0D-4741-B683-49B0509B64D0}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_mechorilla_grunt" ID="{98F071F0-5A6F-4DA6-B39F-04A4DBF5C6D3}">
+					<ChildrenList>
+						<Action Name="" ID="{15ECB8A6-A722-4A1A-B49C-C8B80E5655DD}" ShortID="778863977">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="grunt" ID="{CB79A41F-651A-4A72-BDCA-2C232EDA6FDE}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_mechorilla_smash" ID="{DB8E72F6-9EEF-49EC-99A8-BA2F88E0E64A}">
+					<ChildrenList>
+						<Action Name="" ID="{3260F4EE-295A-434D-BDD7-1936F8D14553}" ShortID="746291450">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="smash" ID="{AA8786CA-5202-4047-B2F0-7327213564E3}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_mechorilla_bigsmash" ID="{7B696FA2-4AA3-4618-8B89-576A307A8C2D}">
+					<ChildrenList>
+						<Action Name="" ID="{B33156AE-EE12-4F6C-979A-C186DDE25AD4}" ShortID="557034918">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bigsmash" ID="{32AA85C5-3C77-4F08-9494-DADAF7A99499}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_mechorilla_blast" ID="{983C6FAC-79E2-445E-8177-FFD18129E28D}">
+					<ChildrenList>
+						<Action Name="" ID="{7D3AAD51-70EF-45E7-AA57-CC1F8AB2B825}" ShortID="8773677">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="blast" ID="{E087DBE2-CA04-44E9-B50C-06FA39CFAA2F}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_mechorilla_blast_prep" ID="{A5231D7B-4258-4A99-A47A-4B714A8D76C9}">
+					<ChildrenList>
+						<Action Name="" ID="{655EC048-1758-4A58-9505-841AB85990A7}" ShortID="100808674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_mechorilla_blast_prep" ID="{C5E80B74-A613-4D15-944A-244A30D1FAB2}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_mechorilla_blast_end" ID="{CB82ACA3-E8B1-405B-B637-EBB3B7DD7BEC}">
+					<ChildrenList>
+						<Action Name="" ID="{59F09B4D-B305-4847-8EE1-4AFA759CD94A}" ShortID="1053162444">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_mechorilla_blast_end" ID="{DE01F453-D410-4E4F-B887-FA5085F2BD7F}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_mechorilla_foley_01" ID="{1618EDA9-03DC-4CC3-A0C8-03F02EAF9814}">
+					<ChildrenList>
+						<Action Name="" ID="{A58F44E9-F8F1-4D57-B5D8-8674F437FE70}" ShortID="510791181">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_mechorilla_foley_01" ID="{D300381F-E265-4725-8F16-820C25B4EA9A}" WorkUnitID="{FE3FA7C5-9E89-40FE-8C7C-97CE0994E519}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

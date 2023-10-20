@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 421717057
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0f4a9539cfeb1fa8def10f68ad83c247
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e28ef71d1410e952dcf117018e229f15
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 67079b849227b734694872d8810229b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0775061d2cda9544482e45d51328027e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 319
+  Script: {instanceID: 0}
+Assets:
+- Assets/Mechorilla/FBX/Idle.anim
+- Assets/Mechorilla/FBX/animMechorilla.controller
+- Assets/Mechorilla/Textures/texMechorillaEmission.png
+- Assets/Mechorilla/Textures/texMechorilla.png
+- Assets/Mechorilla/Textures/texMechorillaMonsoon.png
+- Assets/Mechorilla/FBX/DefaultPose.anim
+- Assets/Mechorilla/FBX/AimPitch.anim
+- Assets/Mechorilla/MechorillaShockwaveGhost.prefab
+- Assets/Mechorilla/Materials/matMechorillaMonsoon.mat
+- Assets/Mechorilla/FBX/WalkF.anim
+- Assets/Mechorilla/FBX/maskMechorillaAim.mask
+- Assets/Mechorilla/FBX/Ascend.anim
+- Assets/Mechorilla/MechorillaDisplay.prefab
+- Assets/Mechorilla/FBX/SweepingBeam.anim
+- Assets/Mechorilla/Icons/texMechorillaPlayerIcon.png
+- Assets/Mechorilla/mdlMechorilla.prefab
+- Assets/Mechorilla/FBX/Descend.anim
+- Assets/Mechorilla/FBX/animMechorillaV02.fbx
+- Assets/Mechorilla/Icons/texMechorillaIcon.png
+- Assets/Mechorilla/Materials/matMechorilla.mat
+- Assets/Mechorilla/FBX/AimYaw.anim
+Dependencies: []

@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 448264344
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mechorilla
+      Dependencies: {}
+    Info_1:
+      Name: regigigas2
+      Dependencies: {}

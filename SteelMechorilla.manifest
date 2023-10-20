@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 630019824
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mechorilla
+      Dependencies: {}

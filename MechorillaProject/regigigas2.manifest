@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 1605943651
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fca6a5f09356384a74200520f1c64d45
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f2636f03326329324e4a2690e2636360
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Regigigas/texStoneJuggernautIcon.png
+- Assets/Regigigas/texStoneJuggernautEnemyIcon.png
+- Assets/Regigigas/matRegigigasAlternate.mat
+- Assets/Regigigas/matRegigigasShiny2.mat
+- Assets/Regigigas/meshRegigigasAlt.mesh
+Dependencies: []

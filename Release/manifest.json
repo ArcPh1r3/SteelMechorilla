@@ -1,0 +1,10 @@
+{
+    "name": "Steel Mechorilla",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/TheTimeSweeper/RegigigasMod",
+    "description": "Adds a new tier 1 boss to the game, the Steel Mechorilla. Fully multiplayer compatible!",
+    "dependencies": [
+        "tristanmcpherson-R2API-5.0.5",
+        "bbepis-BepInExPack-5.4.2101"
+    ]
+}
