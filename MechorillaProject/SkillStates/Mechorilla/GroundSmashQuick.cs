@@ -6,7 +6,7 @@
         {
             this.duration = 4f / this.attackSpeedStat;
             this.smashTime = 0.18f * this.duration;
-            this.meleeDamageCoefficient = 1.5f;
+            this.meleeDamageCoefficient = 1.2f;
 
             base.PlayAnimation("FullBody, Override", "GroundSlamQuick", "Action.playbackRate", this.duration);
         }

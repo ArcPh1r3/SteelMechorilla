@@ -11,6 +11,7 @@ using UnityEngine;
 
 namespace SteelMechorilla
 {
+    [BepInDependency("com.Moffein.RiskyArtifacts", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
     [BepInPlugin(MODUID, MODNAME, MODVERSION)]
@@ -30,11 +31,13 @@ namespace SteelMechorilla
     {
         public const string MODUID = "com.rob.SteelMechorilla";
         public const string MODNAME = "SteelMechorilla";
-        public const string MODVERSION = "1.0.0";
+        public const string MODVERSION = "1.0.2";
 
         public const string developerPrefix = "ROB";
 
         public static MechorillaPlugin instance;
+
+        public static bool riskyArtifactsInstalled => BepInEx.Bootstrap.Chainloader.PluginInfos.ContainsKey("com.Moffein.RiskyArtifacts");
 
         private void Awake()
         {

@@ -35,14 +35,26 @@ Fire a horizontally sweeping beam in front
     
 ### Blast (under 50% hp)
 
-Fire 5 high damage delayed blasts
+Fire 8 high damage delayed blasts
 [![](https://github.com/ArcPh1r3/SteelMechorilla/blob/main/Release/FuckShit/special.gif?raw=true)]()
 
 
+## Future Plans
+- Add a custom boss item
+- Maybe a more detailed model?
+
 ## Known Issues
-- None as of right now
+- The gorilla is too damn sexy
 
 ## Changelog
+
+`1.0.2`
+- Added compatibility for the Artifact of Origination from Moffein's Risky_Artifacts mod
+- Nerfed beam damage even more this thing is seriously unfair
+
+`1.0.1`
+- Nerfed damage across the board, especially on the beam
+- Blast now fires more shots and fires a little faster
 
 `1.0.0`
 - Initial Release

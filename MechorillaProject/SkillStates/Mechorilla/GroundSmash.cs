@@ -9,8 +9,8 @@ namespace SteelMechorilla.SkillStates.Mechorilla
     public class GroundSmash : BaseSkillState
     {
         public static float baseDuration = 9f;
-        public float damageCoefficient = 2.5f;
-        public float meleeDamageCoefficient = 4f;
+        public float damageCoefficient = 3f;
+        public float meleeDamageCoefficient = 2f;
 
         protected float smashTime;
         private bool hasSmashed;

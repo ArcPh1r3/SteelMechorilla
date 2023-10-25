@@ -10,3 +10,4 @@ C:\Users\rseid\OneDrive\Documents\GitHub\SteelMechorilla\MechorillaProject\obj\D
 C:\Users\rseid\OneDrive\Documents\GitHub\SteelMechorilla\MechorillaProject\obj\Debug\netstandard2.0\SteelMechorilla.csproj.CopyComplete
 C:\Users\rseid\OneDrive\Documents\GitHub\SteelMechorilla\MechorillaProject\obj\Debug\netstandard2.0\SteelMechorilla.dll
 C:\Users\rseid\OneDrive\Documents\GitHub\SteelMechorilla\MechorillaProject\obj\Debug\netstandard2.0\SteelMechorilla.pdb
+C:\Users\rseid\OneDrive\Documents\GitHub\SteelMechorilla\MechorillaProject\bin\Debug\netstandard2.0\Risky_Artifacts.dll

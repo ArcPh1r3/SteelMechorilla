@@ -10,9 +10,9 @@ namespace SteelMechorilla.SkillStates.Mechorilla.Cannon
 {
     public class FireBlasts : BaseSkillState
     {
-        public static int blastCount = 5;
-        public static float baseShotDuration = 0.4f;
-        public static float damageCoefficient = 5f;
+        public static int blastCount = 8;
+        public static float baseShotDuration = 0.3f;
+        public static float damageCoefficient = 4.5f;
 
         private int remainingBlasts;
         private float shotTimer;

@@ -276,6 +276,8 @@ namespace SteelMechorilla.Modules.Enemies
             //        }
             //    }
             //};
+
+            if (MechorillaPlugin.riskyArtifactsInstalled) SetupRiskyCompat(characterSpawnCard);
         }
 
         private static void SetupHurtboxes(GameObject bodyPrefab)
@@ -632,6 +634,11 @@ namespace SteelMechorilla.Modules.Enemies
             #endregion
 
             skinController.skins = skins.ToArray();
+        }
+
+        public static void SetupRiskyCompat(CharacterSpawnCard spawnCard)
+        {
+            Risky_Artifacts.Artifacts.Origin.AddSpawnCard(spawnCard, Risky_Artifacts.Artifacts.Origin.BossTier.t1);
         }
 
         private static void InitializeItemDisplays(GameObject prefab)

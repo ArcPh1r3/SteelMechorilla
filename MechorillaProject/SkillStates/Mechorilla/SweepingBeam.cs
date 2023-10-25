@@ -8,7 +8,7 @@ namespace SteelMechorilla.SkillStates.Mechorilla
 {
     public class SweepingBeam : BaseState
     {
-		public float baseDuration = 17f;
+		public float baseDuration = 16f;
 		
 		private float duration;
 		private bool hasFired;
@@ -178,7 +178,7 @@ namespace SteelMechorilla.SkillStates.Mechorilla
 					minSpread = 0f,
 					maxSpread = 0f,
 					bulletCount = 1U,
-					damage = (8f * FireMegaLaser.damageCoefficient) * this.damageStat / FireMegaLaser.fireFrequency,
+					damage = (3f * FireMegaLaser.damageCoefficient) * this.damageStat / FireMegaLaser.fireFrequency,
 					force = FireMegaLaser.force,
 					muzzleName = targetMuzzle,
 					hitEffectPrefab = null,
@@ -197,18 +197,18 @@ namespace SteelMechorilla.SkillStates.Mechorilla
 				{
 					attacker = this.gameObject,
 					attackerFiltering = AttackerFiltering.NeverHitSelf,
-					baseDamage = 3f * this.damageStat,
+					baseDamage = (1.5f * FireMegaLaser.damageCoefficient) * this.damageStat / FireMegaLaser.fireFrequency,
 					baseForce = 400f,
 					bonusForce = Vector3.up * 100f,
 					crit = this.RollCrit(),
 					damageType = DamageType.AOE,
-					falloffModel = BlastAttack.FalloffModel.None,
+					falloffModel = BlastAttack.FalloffModel.Linear,
 					inflictor = this.gameObject,
 					losType = BlastAttack.LoSType.None,
 					position = this.muzzleTransform.position,
 					procChainMask = default,
 					procCoefficient = 1f,
-					radius = 3f,
+					radius = 2.5f,
 					teamIndex = this.teamComponent.teamIndex
 				}.Fire();
 			}
